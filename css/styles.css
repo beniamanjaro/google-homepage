@@ -1,0 +1,160 @@
+.google-logo {
+	padding-top: 150px;
+}
+.img-container{
+	text-align: center;
+}
+.apps-icon{
+}
+
+nav{
+	height: 40px;
+	padding-left: 1600px;
+}
+
+/* Style for the buttons */
+.button1 {
+	display: inline-block;
+	font-style: normal;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 10px;
+	margin: 11px 6px;
+	height: 36px;
+	color: #5F6368;
+}
+
+.button1:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
+	border-radius: 4px;
+}
+
+.button2 {
+	display: inline-block;
+	font-style: normal;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 10px;
+	margin: 11px 6px;
+	color: #5F6368;
+}
+
+.button2:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
+	border-radius: 4px;
+}
+
+#buttons-container {
+	display: flex;
+	justify-content: center;
+	width: 580px;
+	padding-top: 18px;
+	margin: auto;
+}
+
+.connect-button{
+	color: white;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	padding: 8px;
+	outline: none;
+}
+
+.connect-button:hover{
+	cursor: pointer;
+}
+
+/* Stle for the Search Bar */
+.search-bar {
+	width: 500px;
+	margin-top: 40px;
+	padding: 15px 20px 8px 50px;
+	border: 1px solid transparent;
+	background-image: url(/images/magnifying-glass-icon-31x31.png);
+	background-repeat: no-repeat;
+	background-position: 10px 6px;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus{
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 30px;
+}
+
+input[type=text]:hover {
+	border: 1px solid silver;
+	border-radius: 30px;
+}
+
+#search-bar-container {
+	display: flex;
+	justify-content: center;
+}
+
+/* Style for the language links */
+.text-center {
+	text-align: center;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	padding: 11px;
+}
+
+span {
+	display: block;
+}
+
+a:link{ color:#ff0000;text-decoration:none;}
+a:hover {text-decoration:underline;}
+a {
+	color: #1a0dab; 
+	text-decoration: none; 
+	padding: 0px 3px; 
+}
+
+li{
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a{
+	color: black;
+	font-size: 13px;
+	font-family: arial,sans-serif; 
+}
+
+li a:hover{
+	color: grey;
+}
+
+footer{
+	line-height: 40px;
+}
+
+.footer-right{
+	float: right;
+}
+
+.footer-left{
+	float: left;
+}
+
+p{
+	text-align: left;
+	font-size: 16px;
+	font-family: arial,sans-serif;
+	margin-left: 30px;
+	padding-left: 17px;
+	color: rgba(0,0,0,.54);
+}
